@@ -1,0 +1,88 @@
+.programms-section {
+  padding: 45px 0;
+  background-color: rgb(247, 247, 190);
+}
+
+.programms__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.programms-section__title {
+  margin: 0 auto;
+  padding: 8px 15px;
+  width: 850px;
+  text-align: center;
+  border-radius: 19px;
+  background-color: #ffffff;
+}
+
+.btn-add-articles{
+  margin: 0 auto;
+}
+
+.btn-add{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  width: 350px;
+  height: 50px;
+}
+
+.programms-section__title h1{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.programms-section__row {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.programm-item {
+  width: 540px;
+  height: 430px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #000000;
+}
+
+.programm-item:hover .programm-item__title{
+  transition: all 0.4s;
+  color: #ec5252;
+}
+
+.programm-item__prev {
+  width: 540px;
+  height: 270px;
+}
+
+.programm-item__prev img{
+  width: 540px;
+  height: 270px;
+}
+
+.programm-item__content {
+  padding: 10px 8px;
+}
+
+.programm-item__title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.programm-item__type{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}

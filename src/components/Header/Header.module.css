@@ -1,0 +1,50 @@
+.header{
+    background-color: #ec5252;
+}
+
+.header__row{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.navigation__list{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navigation__item{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.btn-auth{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ec5252;
+}
+
+.social__row{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social__link{
+    display: flex;
+    align-items: center;
+}

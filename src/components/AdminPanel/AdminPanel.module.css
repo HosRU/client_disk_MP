@@ -1,0 +1,59 @@
+.admin-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 247, 190);
+  height: calc(100vh - 160px);
+}
+
+.admin-panel__content {
+  position: relative;
+  padding: 55px 0;
+}
+
+.admin-panel__title {
+  padding: 8px 15px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  width: 560px;
+  text-align: center;
+  border-radius: 19px;
+  background-color: #ffffff;
+}
+
+.admin-panel__title h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.form-add-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-add-articles input {
+  background-color: #ffffff;
+}
+
+.btn__container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.file-input {
+  margin-bottom: 20px;
+}
+
+.ql-toolbar {
+  background-color: #ffffff;
+}
+
+.status-block{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

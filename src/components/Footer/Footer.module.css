@@ -1,0 +1,35 @@
+.footer{
+    background-color: #ec5252;
+}
+
+.footer__row{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.copyright{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.social__row{
+    display: flex;
+    gap: 15px;
+}
+
+.social__link{
+    display: flex;
+    align-items: center;
+}

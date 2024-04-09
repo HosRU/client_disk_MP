@@ -1,0 +1,41 @@
+.section-authorization{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 190);
+    min-height: calc(100vh - 160px);
+}
+
+.authorization__row{
+    position: relative;
+    padding: 25px 0 45px;
+}
+
+.authorizatio__title{
+    padding: 8px 15px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    width: 560px;
+    text-align: center;
+    border-radius: 19px;
+    background-color: #ffffff;
+}
+
+.authorization-form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 0 auto;
+    width: 825px;
+    max-height: 500px;
+}
+
+.authorization-form input{
+    background-color: #ffffff;
+}
+
+.status-block{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

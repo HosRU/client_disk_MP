@@ -1,0 +1,50 @@
+.section-banner{
+    background-image: url("/public/img/banner/bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 100%;
+    padding: 55px 0;
+    background-color: aliceblue;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.banner__content{
+    display: flex;
+    gap: 40px;
+}
+
+.bold{
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.banner__title{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1;
+    color: #000000;
+}
+
+.bold{
+    max-width: 660px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #f25555;
+}
+
+.italics{
+    max-width: 660px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #f25555;
+}
