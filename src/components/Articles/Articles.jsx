@@ -17,7 +17,7 @@ export default function Articles({ isLoggedIn }) {
   useEffect(() => {
     const fetchArticles = async () => {
       try {
-        await fetch("http://localhost:8081/api_get/articles")
+        await fetch("http://artemfakli.temp.swtest.ru/api_get/articles")
           .then((responce) => responce.json())
           .then((data) => setArticles(data));
         setLoading(false);
@@ -54,7 +54,7 @@ export default function Articles({ isLoggedIn }) {
   const handleClickDelete = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:8081/api_post/articles/id", {
+    fetch("http://artemfakli.temp.swtest.ru/api_post/articles/id", {
       method: "POST",
       body: JSON.stringify({ id_article: article.id__articles }),
       headers: {

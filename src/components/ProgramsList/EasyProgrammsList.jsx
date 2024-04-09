@@ -12,7 +12,7 @@ export default function EasyList({ articles }) {
             <li className={Styles["list__item"]}>
               <article className={Styles["card"]}>
                 <img
-                  src={`http://localhost:8081/${item.image_articles}`}
+                  src={`http://artemfakli.temp.swtest.ru/${item.image_articles}`}
                   alt=""
                   className={Styles["card__prev"]}
                 />

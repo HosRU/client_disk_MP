@@ -11,7 +11,7 @@ export default function ProgrammsSection({ isLoggedIn }) {
     const fetchArticles = async () => {
       try {
         const response = await fetch(
-          "http://localhost:8081/api_get/articles",
+          "http://artemfakli.temp.swtest.ru/api_get/articles",
           {}
         );
         const data = await response.json();
