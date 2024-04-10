@@ -54,7 +54,7 @@ export default function Articles({ isLoggedIn }) {
   const handleClickDelete = (e) => {
     e.preventDefault();
 
-    fetch("http://artemfakli.temp.swtest.ru/api_post/articles/id", {
+    fetch("http://localhost:3003/api_post/articles/id", {
       method: "POST",
       body: JSON.stringify({ id_article: article.id__articles }),
       headers: {

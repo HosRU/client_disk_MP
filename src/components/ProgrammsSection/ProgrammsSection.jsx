@@ -11,7 +11,7 @@ export default function ProgrammsSection({ isLoggedIn }) {
     const fetchArticles = async () => {
       try {
         const response = await fetch(
-          "http://artemfakli.temp.swtest.ru/api_get/articles",
+          "http://localhost:3003/api_get/articles",
           {}
         );
         const data = await response.json();
@@ -52,7 +52,7 @@ export default function ProgrammsSection({ isLoggedIn }) {
                   <li className={Styles["programm-item"]}>
                     <div className={Styles["programm-item__prev"]}>
                       <img
-                        src={"http://localhost:8081/" + item.image_articles}
+                        src={"http://localhost:3003/"+item.image_articles}
                         alt="Изображение превью для программы"
                       />
                     </div>

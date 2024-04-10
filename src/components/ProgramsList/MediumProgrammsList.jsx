@@ -14,7 +14,7 @@ export default function MediumList({ articles }) {
             <li className={Styles["list__item"]}>
               <article className={Styles["card"]}>
                 <img
-                  src={`http://artemfakli.temp.swtest.ru/${item.image_articles}`}
+                  src={`http://localhost:3003/${item.image_articles}`}
                   alt=""
                   className={Styles["card__prev"]}
                 />

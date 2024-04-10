@@ -69,7 +69,7 @@ export default function AdminPanel() {
     formData.append("text", text);
     formData.append("image", image);
 
-    const request = await fetch("http://artemfakli.temp.swtest.ru/api_post/articles", {
+    const request = await fetch("http://localhost:3003/api_post/articles", {
       method: "POST",
       body: formData,
     })

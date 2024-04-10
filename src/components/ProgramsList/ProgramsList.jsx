@@ -10,7 +10,7 @@ export default function ProgramsList({children}) {
   useEffect(() => {
     const fetchArticles = async () => {
       try {
-        await fetch("http://artemfakli.temp.swtest.ru/api_get/articles")
+        await fetch("http://localhost:3003/api_get/articles")
         .then(responce => responce.json())
         .then(data => setArticles(data))
         // setLoading(false)

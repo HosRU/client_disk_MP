@@ -53,7 +53,7 @@ export default function AuthForm({ setIsLoggedIn }) {
       password: password,
     };
 
-    fetch("http://artemfakli.temp.swtest.ru/api_post/users", {
+    fetch("http://localhost:3003/api_post/users", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {
